@@ -6,5 +6,16 @@ use Illuminate\Http\Request;
 
 class ExDoze extends Controller
 {
-    //
+    public function decrescente()
+    {
+        $numeros = []; 
+
+        for ($i = 90; $i >= 1; $i--) {
+          array_push($numeros, $i);
+        }
+
+        return json_encode([
+            'valores'=> $numeros
+        ]);
+    }
 }
