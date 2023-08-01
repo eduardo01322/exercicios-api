@@ -1,5 +1,17 @@
 <?php
 
+use App\Http\Controllers\ExCinco;
+use App\Http\Controllers\ExDez;
+use App\Http\Controllers\ExDois;
+use App\Http\Controllers\ExDoze;
+use App\Http\Controllers\ExNove;
+use App\Http\Controllers\ExOito;
+use App\Http\Controllers\ExOnze;
+use App\Http\Controllers\ExQuatro;
+use App\Http\Controllers\ExSeis;
+use App\Http\Controllers\ExSete;
+use App\Http\Controllers\ExTres;
+use App\Http\Controllers\ExTreze;
 use App\Http\Controllers\ExUm;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
