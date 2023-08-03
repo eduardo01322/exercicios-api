@@ -23,6 +23,19 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 ```
 cd exercicios-api-json-php-laravel
 ```
+3. inicializando o repositório
+```
+composer update
+```
+4. copiando o .env do exemplo
+```
+copy .env.example .env
+```
+5. Acessar o virtual studio code
+```
+code .
+```
+# insomnia
 
 ## Licença
 
